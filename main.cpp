@@ -5,16 +5,6 @@
 #include <fstream>
 using namespace std;
 
-
-//can currently ignore this warning. when the file gets too big this can become an issue.
-/*
-!!!!WARNING!!!!
-trying to open the primes.txt file will crash replit. It will connect and disconnect constantly. refreshing the page will fix this. 
-Attempting to download the file will crash chrome and possibly your computer. 
-!!!!WARNING!!!!
-*/
-
-
 int main() 
 {
 	ifstream file; // initiate file
